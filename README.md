@@ -1,73 +1,77 @@
 # InmoValor_SA
-Proyecto 2. Modelos de Regresión Lineal
-House Prices - Advanced Regression Techniques
 
-Este proyecto utiliza modelos de regresión lineal para predecir los precios de las casas utilizando el dataset "House Prices - Advanced Regression Techniques" de Kaggle. El proyecto se organiza en varios Jupyter notebooks que abordan diferentes etapas del proceso de análisis y modelado. Los notebooks están acompañados de sus versiones en HTML, que se encuentran en la carpeta "HTML".
+## Proyecto de Análisis y Predicción de Precios de Viviendas
+
+Este proyecto utiliza técnicas de análisis de datos y modelos de machine learning para predecir los precios de viviendas utilizando el dataset "House Prices - Advanced Regression Techniques" de Kaggle. El proyecto se organiza en varias entregas con diferentes Jupyter notebooks para cada etapa del análisis.
 
 ## Estructura del Proyecto
 
-El proyecto está compuesto por los siguientes Jupyter notebooks:
+El proyecto está organizado de la siguiente manera:
 
-1. **Análisis Exploratorio** (`análisis_exploratorio.ipynb`):
-   - Análisis preliminar del dataset.
-   - Exploración visual y estadística de las variables.
-   - Identificación de características importantes.
+### Análisis
+#### Entrega_1
+- **Análisis_Exploratorio.ipynb**: Análisis preliminar del dataset y exploración visual de variables.
+- **Análisis de Correlación.ipynb**: Estudio de relaciones entre características y precios.
+- **Clustering.ipynb**: Aplicación de técnicas de agrupamiento para segmentar datos.
+- **Preguntas_exploratorio.ipynb**: Profundización en preguntas específicas sobre el dataset.
+- **Regresion_lineal.ipynb**: Implementación de modelos de regresión lineal simples.
 
-2. **Preguntas Exploratorias** (`preguntas_exploratorio.ipynb`):
-   - Profundización en preguntas específicas sobre el dataset.
-   - Análisis más detallado de las distribuciones y correlaciones.
+#### Entrega_2
+- **Árbol_regresion.ipynb**: Modelos de árboles de regresión para predicción de precios.
+- **decision_tree_graphviz**: Visualización gráfica de árboles de decisión.
+- **RandomForest.ipynb**: Implementación de modelos Random Forest.
+- **Validación_cruzada.ipynb**: Técnicas de validación cruzada para evaluar modelos.
+- **Variables_Respuesta_clasificacionsCasa.ipynb**: Análisis de variables de respuesta para clasificación.
+- **Cambiar_profundidad.ipynb**: Comparación de ajuste de parámetros de profundidad en árboles de clasificación.
 
-3. **Clustering** (`clustering.ipynb`):
-   - Aplicación de técnicas de agrupamiento para segmentar los datos.
-   - Identificación de patrones en los precios de las casas.
+### HTML
+- **Entrega_1**: Versiones HTML de los notebooks de la primera entrega.
+- **Entrega_2**: Versiones HTML de los notebooks de la segunda entrega.
 
-4. **Regresión Lineal** (`regresion_lineal.ipynb`):
-   - Implementación de varios modelos de regresión lineal para predecir los precios.
-   - Evaluación del rendimiento de cada modelo.
-
-5. **Análisis de Correlación** (`analisis_de_correlacion.ipynb`):
-   - Estudio de las relaciones entre las características del dataset y el precio.
-   - Análisis de correlaciones para mejorar la interpretación del modelo multivariable.
-
-## Carpeta HTML
-
-Cada uno de los notebooks anteriores tiene una versión en HTML disponible en la carpeta "HTML" para una visualización fácil y rápida. Los archivos HTML corresponden a los notebooks en el mismo orden mencionado anteriormente.
+### Archivos Adicionales
+- **data_description.txt**: Descripción detallada de las variables del dataset.
+- **HDT 3. Modelos de Regresión Lineal.pdf**: Documento de informe sobre el uso de regresión lineal.
+- **HDT 4. Árboles de Decisión.pdf**: Documento de informe sobre el uso de árboles de decisión.
+- **test.csv**: Conjunto de datos de prueba.
+- **train.csv**: Conjunto de datos de entrenamiento.
 
 ## Requisitos
 
 Asegúrate de tener instaladas las siguientes librerías para ejecutar los notebooks:
-
 - `pandas`
 - `numpy`
 - `matplotlib`
 - `seaborn`
 - `sklearn`
 - `scipy`
+- `graphviz` (para visualizaciones de árboles)
 
 Puedes instalarlas usando `pip`:
-
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn scipy
+pip install pandas numpy matplotlib seaborn scikit-learn scipy graphviz
 ```
 
 ## Cómo ejecutar
 
 1. Clona este repositorio en tu máquina local:
-
 ```bash
-git clone https://github.com/tu-usuario/house-prices-regression.git
+git clone https://github.com/tu-usuario/InmoValor_SA.git
 ```
 
 2. Accede a la carpeta del proyecto:
-
 ```bash
-cd house-prices-regression
+cd InmoValor_SA
 ```
 
 3. Abre los notebooks en Jupyter:
-
 ```bash
 jupyter notebook
 ```
 
-Selecciona el notebook que deseas ejecutar desde el navegador que se abre.
+4. Navega a través de las carpetas "Análisis/Entrega_1" o "Análisis/Entrega_2" y selecciona el notebook que deseas ejecutar.
+
+## Documentación
+
+Los archivos PDF incluidos contienen informes sobre el uso de los modelos con los datos.
+- "HDT 3. Modelos de Regresión Lineal.pdf" - Teoría sobre modelos de regresión lineal
+- "HDT 4. Árboles de Decisión.pdf" - Teoría sobre árboles de decisión y técnicas relacionadas
