@@ -24,16 +24,27 @@ El proyecto está organizado de la siguiente manera:
 - **Variables_Respuesta_clasificacionsCasa.ipynb**: Análisis de variables de respuesta para clasificación.
 - **Cambiar_profundidad.ipynb**: Comparación de ajuste de parámetros de profundidad en árboles de clasificación.
 
+#### Entrega_3
+- **Clasificacion_NaiveBayes.ipynb**: Implementación de modelos Naive Bayes para clasificación.
+- **Comparacion_tiemposClasificación.ipynb**: Análisis comparativo de tiempos de ejecución entre modelos de clasificación.
+- **Regresion_NaiveBayes.ipynb**: Implementación de Naive Bayes para regresión.
+- **Validación_Cruzada.ipynb**: Evaluación de modelos mediante validación cruzada.
+- **variablesAD.pkl**: Variables almacenadas para árboles de decisión.
+- **variablesNB.pkl**: Variables almacenadas para Naive Bayes.
+- **variablesRF.pkl**: Variables almacenadas para Random Forest.
+- **Variacion_hiperparámetros.ipynb**: Análisis de rendimiento con diferentes configuraciones de hiperparámetros.
+
 ### HTML
-- **Entrega_1**: Versiones HTML de los notebooks de la primera entrega.
-- **Entrega_2**: Versiones HTML de los notebooks de la segunda entrega.
+- Versiones HTML de los notebooks para cada entrega.
 
 ### Archivos Adicionales
 - **data_description.txt**: Descripción detallada de las variables del dataset.
 - **HDT 3. Modelos de Regresión Lineal.pdf**: Documento de informe sobre el uso de regresión lineal.
 - **HDT 4. Árboles de Decisión.pdf**: Documento de informe sobre el uso de árboles de decisión.
+- **HDT 5. Naive Bayes.pdf**: Documento de informe sobre el uso de algoritmos Naive Bayes.
 - **test.csv**: Conjunto de datos de prueba.
 - **train.csv**: Conjunto de datos de entrenamiento.
+- **.gitignore**: Archivo para excluir ficheros del control de versiones.
 
 ## Requisitos
 
@@ -68,10 +79,11 @@ cd InmoValor_SA
 jupyter notebook
 ```
 
-4. Navega a través de las carpetas "Análisis/Entrega_1" o "Análisis/Entrega_2" y selecciona el notebook que deseas ejecutar.
+4. Navega a través de las carpetas "Análisis/Entrega_1", "Análisis/Entrega_2" o "Análisis/Entrega_3" y selecciona el notebook que deseas ejecutar.
 
 ## Documentación
 
 Los archivos PDF incluidos contienen informes sobre el uso de los modelos con los datos.
 - "HDT 3. Modelos de Regresión Lineal.pdf" - Teoría sobre modelos de regresión lineal
 - "HDT 4. Árboles de Decisión.pdf" - Teoría sobre árboles de decisión y técnicas relacionadas
+- "HDT 5. Naive Bayes.pdf" - Teoría sobre algoritmos Naive Bayes y su aplicación
