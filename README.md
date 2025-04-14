@@ -32,12 +32,15 @@ El proyecto está organizado de la siguiente manera:
 - **Regresion_NaiveBayes.ipynb**: Implementación de Naive Bayes para regresión.
 - **Validación_Cruzada.ipynb**: Evaluación de modelos mediante validación cruzada.
 - **Variacion_hiperparámetros.ipynb**: Análisis de rendimiento con diferentes configuraciones de hiperparámetros.
-- A diferencia de la branch 'Entrega 3', se han eliminado los archivos *variablesAD.pkl*, *variablesNB.pkl*, *variablesRF.pkl* y *Comparacion_tiemposClasificación.ipynb*. Pues se vuelven redundantes con la integración del archivo *Comparacion_Clasificacion.ipynb* en la carpeta análisis.
 
 #### Entrega_4
 - **KNN_clasificación.ipynb**: Implementación de modelos KNN para tareas de clasificación.
 - **KNN_regression.ipynb**: Implementación de KNN para predicción de precios mediante regresión.
 - **KNN_validación_cruzada.ipynb**: Evaluación de modelos KNN mediante técnicas de validación cruzada.
+
+#### Entrega_5
+- **Modelos_Comparacion.ipynb**: Análisis comparativo de diferentes modelos de clasificación para propiedades inmobiliarias.
+- **ModelosRegresionLogistica.ipynb**: Implementación y evaluación detallada de modelos de regresión logística.
 
 ### HTML
 - Versiones HTML de los notebooks para cada entrega.
@@ -48,6 +51,7 @@ El proyecto está organizado de la siguiente manera:
 - **HDT 4. Árboles de Decisión.pdf**: Documento de informe sobre el uso de árboles de decisión.
 - **HDT 5. Naive Bayes.pdf**: Documento de informe sobre el uso de algoritmos Naive Bayes.
 - **HDT 6. KNN.pdf**: Documento de informe sobre el uso de algoritmos KNN.
+- **HDT 7. Regresión logística.pdf**: Documento de informe sobre el uso de regresión logística y comparación de modelos.
 - **test.csv**: Conjunto de datos de prueba.
 - **train.csv**: Conjunto de datos de entrenamiento.
 - **.gitignore**: Archivo para excluir ficheros del control de versiones.
@@ -66,6 +70,12 @@ Se realizó también una comparación entre cuatro modelos de clasificación par
 - Random Forest lidera en precisión (81.05%) con matrices de confusión más equilibradas.
 - Naive Bayes muestra un buen rendimiento (76.48%) con excelente eficiencia computacional.
 - KNN resulta ser el modelo más rápido (0.0050s) manteniendo una precisión competitiva (74.89%).
+
+### Regresión Logística
+El análisis de regresión logística para la clasificación de propiedades inmobiliarias muestra:
+- La regresión logística alcanzó la mejor combinación de precisión (90.87%) y eficiencia computacional.
+- Se identificaron problemas de multicolinealidad entre variables predictoras que afectan principalmente la clasificación de propiedades de rango medio.
+- El modelo original superó al modelo tuneado en términos de equilibrio entre rendimiento y complejidad, con mejores valores de AIC y BIC.
 
 ## Requisitos
 
@@ -100,7 +110,7 @@ cd InmoValor_SA
 jupyter notebook
 ```
 
-4. Navega a través de las carpetas "Análisis/Entrega_1", "Análisis/Entrega_2", "Análisis/Entrega_3" o "Análisis/Entrega_4" y selecciona el notebook que deseas ejecutar.
+4. Navega a través de las carpetas "Análisis/Entrega_1", "Análisis/Entrega_2", "Análisis/Entrega_3", "Análisis/Entrega_4" o "Análisis/Entrega_5" y selecciona el notebook que deseas ejecutar.
 
 ## Documentación
 
@@ -109,3 +119,4 @@ Los archivos PDF incluidos contienen informes sobre el uso de los modelos con lo
 - "HDT 4. Árboles de Decisión.pdf" - Teoría sobre árboles de decisión y técnicas relacionadas
 - "HDT 5. Naive Bayes.pdf" - Teoría sobre algoritmos Naive Bayes y su aplicación
 - "HDT 6. KNN.pdf" - Teoría sobre algoritmos KNN y su aplicación
+- "HDT 7. Regresión logística.pdf" - Teoría sobre regresión logística y comparación con otros modelos
