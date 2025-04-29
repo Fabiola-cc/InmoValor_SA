@@ -42,6 +42,9 @@ El proyecto está organizado de la siguiente manera:
 - **Modelos_Comparacion.ipynb**: Análisis comparativo de diferentes modelos de clasificación para propiedades inmobiliarias.
 - **ModelosRegresionLogistica.ipynb**: Implementación y evaluación detallada de modelos de regresión logística.
 
+#### Entrega_6
+- **Modelos_SVM.ipynb**: Implementación y evaluación detallada de modelos de SVM clasificatorios y de regresión
+
 ### HTML
 - Versiones HTML de los notebooks para cada entrega.
 
@@ -51,7 +54,8 @@ El proyecto está organizado de la siguiente manera:
 - **HDT 4. Árboles de Decisión.pdf**: Documento de informe sobre el uso de árboles de decisión.
 - **HDT 5. Naive Bayes.pdf**: Documento de informe sobre el uso de algoritmos Naive Bayes.
 - **HDT 6. KNN.pdf**: Documento de informe sobre el uso de algoritmos KNN.
-- **HDT 7. Regresión logística.pdf**: Documento de informe sobre el uso de regresión logística y comparación de modelos.
+- **HDT 7. Regresión logística.pdf**: Documento de informe sobre el uso de regresión logística.
+- **HDT 8. SVM.pdf**: Documento de informe sobre el uso de support vector machine
 - **test.csv**: Conjunto de datos de prueba.
 - **train.csv**: Conjunto de datos de entrenamiento.
 - **.gitignore**: Archivo para excluir ficheros del control de versiones.
@@ -120,3 +124,4 @@ Los archivos PDF incluidos contienen informes sobre el uso de los modelos con lo
 - "HDT 5. Naive Bayes.pdf" - Teoría sobre algoritmos Naive Bayes y su aplicación
 - "HDT 6. KNN.pdf" - Teoría sobre algoritmos KNN y su aplicación
 - "HDT 7. Regresión logística.pdf" - Teoría sobre regresión logística y comparación con otros modelos
+- "HDT 8. SVM.pdf" - Aplicación de support vector machine y comparación con otros modelos
