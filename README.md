@@ -9,7 +9,7 @@ Este proyecto utiliza técnicas de análisis de datos y modelos de machine learn
 El proyecto está organizado de la siguiente manera:
 
 ### Análisis
-- **Comparacion_Clasificacion.ipynb**: Análisis comparativo exhaustivo entre diferentes modelos de clasificación (Árbol de Decisión, Random Forest, Naive Bayes y KNN), incluyendo métricas de precisión, matrices de confusión y tiempos de ejecución.
+- **Comparacion_Clasificacion.ipynb**: Análisis comparativo exhaustivo entre diferentes modelos de clasificación (Árbol de Decisión, Random Forest, Naive Bayes, KNN, SVM y RNA), incluyendo métricas de precisión, matrices de confusión y tiempos de ejecución.
 - **Comparacion_Regresion.ipynb**: Comparativa detallada entre diversos modelos de regresión (Regresión Lineal, Árbol de Decisión, Random Forest, Naive Bayes y KNN), analizando métricas como R², RMSE y tiempo computacional.
 
 #### Entrega_1
@@ -45,6 +45,10 @@ El proyecto está organizado de la siguiente manera:
 #### Entrega_6
 - **Modelos_SVM.ipynb**: Implementación y evaluación detallada de modelos de SVM clasificatorios y de regresión
 
+#### Entrega_7
+- **RNA_Clasificacion.ipynb**: Implementación y evaluación detallada del modelo clasificatorio con Redes neuronales
+- **RNA_SalePrice.ipynb**: Implementación y evaluación detallada del modelo de regresión con Redes neuronales
+
 ### HTML
 - Versiones HTML de los notebooks para cada entrega.
 
@@ -56,6 +60,7 @@ El proyecto está organizado de la siguiente manera:
 - **HDT 6. KNN.pdf**: Documento de informe sobre el uso de algoritmos KNN.
 - **HDT 7. Regresión logística.pdf**: Documento de informe sobre el uso de regresión logística.
 - **HDT 8. SVM.pdf**: Documento de informe sobre el uso de support vector machine
+- **Proyecto 2, Documento Final**: Documento de informe sobre todo el proyecto y los resultados obtenidos.
 - **test.csv**: Conjunto de datos de prueba.
 - **train.csv**: Conjunto de datos de entrenamiento.
 - **.gitignore**: Archivo para excluir ficheros del control de versiones.
@@ -64,15 +69,15 @@ El proyecto está organizado de la siguiente manera:
 ## Resultados Principales
 
 ### Regresión
-Se implementaron y compararon cinco modelos de regresión (Regresión Lineal, Árbol de Decisión, Random Forest, Naive Bayes y KNN) para predecir los precios de viviendas. Los resultados principales muestran que:
+Se implementaron y compararon siete modelos de regresión (Regresión Lineal, Árbol de Decisión, Random Forest, Naive Bayes, KNN, SVR y Redes Neuronales) para predecir los precios de viviendas. Los resultados principales muestran que:
 - Random Forest proporciona la mayor precisión (R² = 0.8578, RMSE = 31,065.92), pero con el mayor costo computacional.
 - KNN ofrece un excelente equilibrio entre precisión (R² = 0.8137, RMSE = 35,559.27) y eficiencia computacional.
 - Los modelos muestran mayor dificultad para predecir correctamente los precios de propiedades de alto valor.
 
 ### Clasificación
-Se realizó también una comparación entre cuatro modelos de clasificación para categorizar las viviendas. Los resultados revelan que:
+Se realizó también una comparación entre seis modelos de clasificación para categorizar las viviendas. Los resultados revelan que:
 - Random Forest lidera en precisión (81.05%) con matrices de confusión más equilibradas.
-- Naive Bayes muestra un buen rendimiento (76.48%) con excelente eficiencia computacional.
+- SVC logró un desempeño aceptable clasificando correctamente la mayoría de las viviendas en sus respectivas categorías.
 - KNN resulta ser el modelo más rápido (0.0050s) manteniendo una precisión competitiva (74.89%).
 
 ### Regresión Logística
@@ -114,7 +119,7 @@ cd InmoValor_SA
 jupyter notebook
 ```
 
-4. Navega a través de las carpetas "Análisis/Entrega_1", "Análisis/Entrega_2", "Análisis/Entrega_3", "Análisis/Entrega_4" o "Análisis/Entrega_5" y selecciona el notebook que deseas ejecutar.
+4. Navega a través de las carpetas en "Análisis" y selecciona el notebook que deseas ejecutar.
 
 ## Documentación
 
@@ -125,3 +130,4 @@ Los archivos PDF incluidos contienen informes sobre el uso de los modelos con lo
 - "HDT 6. KNN.pdf" - Teoría sobre algoritmos KNN y su aplicación
 - "HDT 7. Regresión logística.pdf" - Teoría sobre regresión logística y comparación con otros modelos
 - "HDT 8. SVM.pdf" - Aplicación de support vector machine y comparación con otros modelos
+- "Proyecto #2 Documento Final.pdf" - Informe final con resultados obtenidos del proyecto
